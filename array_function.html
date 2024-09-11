@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Js Progarm Using Array and Array Function</title>
+    <script lang="JavaScript">
+      arr = new Array(137,"Leno",false,"The American College");
+      friends = new Array(3);
+      friends[0] = "Amal Iwin";
+      friends[1] = "Leno Micheal";
+      friends[2] = "Lourdhu Raj";
+      friends[3] = prompt("Enter Your Friends Name 1 :")
+      friends[4] = prompt("Enter Your Friends Name 2 :")
+      
+    </script>
+</head>    
+<body>
+    <script lang="JavaScript">
+       //first dense array elements are accessed
+       document.write("<h3>My Details</h3>");
+       document.write("<h4>Roll no :" + arr[0] + "</h4> <br>");
+       document.write("<h4>Name :" + arr[1] + "</h4> <br>");
+       document.write("<h4>Student :" + arr[2] + "</h4> <br>");
+       document.write("<h4>College :" + arr[3] + "</h4> <br>");
+       //second array elements are accessesd
+       document.write("<h3>My Friends</h3>")
+       document.write("<h4>" + friends[0] +  "</h4><br>");
+       document.write("<h4>" + friends[1] +  "</h4><br>");
+       document.write("<h4>" + friends[2] +  "</h4><br>");
+       document.write("<h4>" + friends[3] +  "</h4><br>");
+       document.write("<h4>" + friends[4] +  "</h4><br>");
+        
+      len = friends.length;
+      document.write("<h3>Number of elements in friends array = "+len + "</h3><br>");
+      jfriends = friends.join();
+      document.write("<h3>Friends List = " +jfriends + "</h3><br>");
+      reverse_arr = arr.reverse();
+      document.write("<h3>Reversed Array = " +reverse_arr + "</h3><br>");
+    </script>
+</body>
+</html>
